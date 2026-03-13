@@ -3,7 +3,7 @@
 <p align="center"><img src= "logo.jpg" alt="AutoBox Agent" width="550" /></p>
 
 <p align="center">
-  [<a href="docs/zh/README.md">中文</a>] | [English]
+  [<a href="README.md">中文</a>] | [English]
 </p>
 
 # AutoBox (叶动智能)
@@ -70,4 +70,5 @@ Supports richer frontend display, tools, and service extensions compared to ordi
 - Customizable system settings
 
 "This project uses the BSL license, free for personal use. For commercial use, please contact us for authorization."
+
 
