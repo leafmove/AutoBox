@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src= "channel/web/static/logo.jpg" alt="AutoBox Agent" width="550" /></p>
+<p align="center"><img src= "logo.jpg" alt="AutoBox Agent" width="550" /></p>
 
 <p align="center">
   [中文] | [<a href="docs/en/README.md">English</a>]
