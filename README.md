@@ -17,7 +17,7 @@
 支持相对于普通龙虾更加丰富的前端显示、实现工具和服务的扩展。能够主动思考和任务规划、操作计算机和外部资源、创造和执行Skills、拥有长期记忆并不断成长。支持灵活切换多种模型，能处理文本、语音、图片、文件等多模态消息，可接入网页、飞书、钉钉、企业微信应用、微信公众号中使用，7*24小时运行于你的个人电脑或服务器中。
 
 <p align="center">
-  <a href="https://github.com/leafmove/AutoBox">🌐 叶动官网</a> &nbsp;·&nbsp;
+  <a href="https://www.leafmove.com">🌐 叶动官网</a> &nbsp;·&nbsp;
   <a href="https://github.com/leafmove/AutoBox/releases">📖 下载使用</a> &nbsp;·&nbsp;
   <a href="https://mp.weixin.qq.com/s/IBemKKpOewcrNVmrJKhaPg">🚀 快速开始</a>
 </p>
