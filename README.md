@@ -1,5 +1,6 @@
 
 
+<p align="center"><img src= "system.jpg" alt="AutoBox System" width="550" /></p>
 <p align="center"><img src= "logo.jpg" alt="AutoBox Agent" width="550" /></p>
 
 <p align="center">
