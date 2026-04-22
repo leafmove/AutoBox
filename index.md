@@ -55,7 +55,7 @@ AutoBox Agent 支持灵活切换多种模型，能处理文本、语音、图片
 
 ## 快速体验
 
-在终端执行以下命令，即可一键安装、配置、启动 AutoBox 智能体：
+在以下链接中下载，即可一键安装、配置、启动 AutoBox 智能体：
 
 https://autobox-ai.feishu.cn/wiki/TZ8rwA8chiuTw3kFKFFcEMUxnue
 
