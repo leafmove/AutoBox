@@ -1,9 +1,9 @@
 ---
 title: 项目架构
-description: AutoBox Agent 2.0 的系统架构和核心设计
+description: AutoBox Agent 0.8.0 的系统架构和核心设计
 ---
 
-AutoBox Agent 2.0 从简单的聊天机器人全面升级为超级智能助理，采用 Agent 架构设计，具备自主思考、规划任务、长期记忆和技能扩展等能力。
+AutoBox Agent 0.8.0 从简单的聊天机器人全面升级为超级智能助理，采用 Agent 架构设计，具备自主思考、规划任务、长期记忆和技能扩展等能力。
 
 ## 系统架构
 
