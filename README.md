@@ -56,12 +56,14 @@
 
 ## ✨ 主要特色
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143528.png" alt="AutoBox Agent" width="550" /></p>
+
 ### 1. 智能助手 💬
 - 和AI进行实时对话，像聊天一样简单
 - 支持多种内容展示：文字、图表、数学公式、代码高亮等
 - 对话记录自动保存，随时可以查看历史聊天
 
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143353.png" alt="AutoBox Func" width="550" /></p>
+
 ### 2. 应用中心 📱
 - 提供丰富的AI应用，就像手机应用商店一样
 - 每个应用都有特定功能，满足不同需求
