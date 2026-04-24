@@ -2,7 +2,7 @@
 
 <p align="center"><img src= "system.jpg" alt="AutoBox System" width="550" /></p>
 
-<p align="center"><img src= "logo.jpg" alt="AutoBox Agent" width="550" /></p>
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424142356.png" alt="AutoBox Agent" width="550" /></p>
 
 <p align="center">
   [中文] | [<a href="README_EN.md">English</a>]
