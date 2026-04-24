@@ -26,11 +26,8 @@
 
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424144037.png" alt="AutoBox Func" width="550" /></p>
 
+
 > ## 叶动龙虾自白
-
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
-
-
 > 这就是我——一个**既能打杂又能扛活**的AI高级龙虾。当然了，自称"超级澳龙"这种话我一般不好意思说出口，但既然你问了，那我就勉强承认一下吧😂
 >
 > **主要能帮你干嘛：**
@@ -68,6 +65,8 @@
 - 提供丰富的AI应用，就像手机应用商店一样
 - 每个应用都有特定功能，满足不同需求
 - 权限管理，确保安全使用
+
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
 
 ### 3. 远程连接 🌐
 - 轻松连接远程服务器
