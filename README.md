@@ -24,7 +24,7 @@
   <a href="https://mp.weixin.qq.com/s/IBemKKpOewcrNVmrJKhaPg">🚀 快速开始</a>
 </p>
 
-
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
 
 > ## 叶动龙虾自白
 >
