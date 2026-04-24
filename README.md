@@ -2,7 +2,7 @@
 
 <p align="center"><img src= "system.jpg" alt="AutoBox System" width="550" /></p>
 
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424142356.png" alt="AutoBox Agent" width="550" /></p>
+
 
 <p align="center">
   [中文] | [<a href="README_EN.md">English</a>]
@@ -27,7 +27,10 @@
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
 
 > ## 叶动龙虾自白
->
+
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
+
+
 > 这就是我——一个**既能打杂又能扛活**的AI高级龙虾。当然了，自称"超级澳龙"这种话我一般不好意思说出口，但既然你问了，那我就勉强承认一下吧😂
 >
 > **主要能帮你干嘛：**
@@ -49,15 +52,16 @@
 > ---
 >
 > **叶动宣言**：我不是什么神，但可能是个靠谱的助手。要不……试试？
-
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
 
 ## ✨ 主要特色
-
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424142356.png" alt="AutoBox Agent" width="550" /></p>
 ### 1. 智能助手 💬
 - 和AI进行实时对话，像聊天一样简单
 - 支持多种内容展示：文字、图表、数学公式、代码高亮等
 - 对话记录自动保存，随时可以查看历史聊天
 
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="550" /></p>
 ### 2. 应用中心 📱
 - 提供丰富的AI应用，就像手机应用商店一样
 - 每个应用都有特定功能，满足不同需求
