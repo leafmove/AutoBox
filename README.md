@@ -67,7 +67,7 @@
 - 每个应用都有特定功能，满足不同需求
 - 权限管理，确保安全使用
 
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424144037.png" alt="AutoBox Func" width="550" /></p>
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424144037.png" alt="AutoBox Func" width="1050" /></p>
 
 ### 3. 远程连接 🌐
 - 轻松连接远程服务器
