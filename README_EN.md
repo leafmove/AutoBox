@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src= "logo.jpg" alt="AutoBox Agent" width="550" /></p>
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image_20260907_1619.png" alt="AutoBox Agent" width="1080" /></p>
 
 <p align="center">
   [<a href="README.md">中文</a>] | [English]
@@ -25,7 +25,7 @@ Supports richer frontend display, tools, and service extensions compared to ordi
 
 > ## 叶动龙虾自白 (AutoBox Lobster's Manifesto)
 >
-> This is me—an AI premium "lobster" that can **both do chores and handle heavy lifting**. Well, I don't usually brag about being a "super Australian lobster", but since you asked, I'll reluctantly admit it 😂
+> This is me—an AI  that can **both do chores and handle heavy lifting**. Well, I don't usually brag about being a "super Australian lobster", but since you asked, I'll reluctantly admit it 😂
 >
 > **What can I do for you:**
 >
