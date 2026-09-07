@@ -24,10 +24,10 @@ AutoBox（叶动智能）是一个专注于科研教育和量化投资的 AI 驾
   <a href="https://mp.weixin.qq.com/s/IBemKKpOewcrNVmrJKhaPg">🚀 快速开始</a>
 </p>
 
-
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="1080" /></p>
 > ## 叶动驾驶舱
 > 进入驾驶舱之后就能够通过您的电脑完全掌控数字资产。注册钥匙即可进入😂
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image-20260422104547911.png" alt="AutoBox Func" width="1080" /></p>
+>
 > **主要能帮你干嘛：**
 >
 > 🔹 **任务规划**：别看我平时话少，干活可不含糊。你说个数，我就能帮你拆解任务、调用工具，一直折腾到完成为止。文件、终端、浏览器、定时任务——只要能访问的，我都能玩转。
