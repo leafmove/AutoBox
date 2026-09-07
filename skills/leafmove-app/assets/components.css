@@ -1,0 +1,269 @@
+/* ===== 叶动应用标准组件样式模板（方案C：组件级规范） ===== */
+/* 将此文件内容粘贴到 <style> 标签中，dark-light-theme.css 之后 */
+/* 配合 references/frontend-style.md 的"组件级规范"章节使用 */
+
+/* ===== 表单控件 ===== */
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.input, .select, .textarea {
+    width: 100%;
+    padding: 9px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.15);
+}
+
+.input::placeholder, .textarea::placeholder {
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* 表单行内布局 */
+.form-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.form-row .form-group {
+    flex: 1;
+    min-width: 120px;
+}
+
+/* ===== 标签 / 徽章 ===== */
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.tag-primary   { background: rgba(52, 211, 153, 0.15); color: var(--primary); }
+.tag-success   { background: rgba(16, 185, 129, 0.15); color: var(--success); }
+.tag-danger    { background: rgba(239, 68, 68, 0.15);  color: var(--danger); }
+.tag-warning   { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+.tag-info      { background: rgba(59, 130, 246, 0.15); color: var(--info); }
+.tag-neutral   { background: var(--bg-hover); color: var(--text-secondary); }
+
+/* ===== Toast 通知 ===== */
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10002;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toast {
+    padding: 12px 18px;
+    border-radius: 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    box-shadow: 0 4px 20px var(--shadow);
+    animation: toast-in 0.3s ease;
+    max-width: 360px;
+}
+
+.toast-success { border-left: 4px solid var(--success); }
+.toast-error   { border-left: 4px solid var(--danger); }
+.toast-info    { border-left: 4px solid var(--info); }
+
+@keyframes toast-in {
+    from { opacity: 0; transform: translateX(20px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+.toast-out {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.3s ease;
+}
+
+/* ===== 加载状态 ===== */
+
+.spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* ===== 空状态 ===== */
+
+.empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.empty-state .empty-icon {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    opacity: 0.5;
+}
+
+/* ===== Tab 切换 ===== */
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 10px 18px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.tab:hover { color: var(--text-primary); }
+
+.tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    font-weight: 600;
+}
+
+/* ===== 分页 ===== */
+
+.pagination {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.page-btn {
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) { border-color: var(--primary); color: var(--primary); }
+.page-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+.page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ===== 表格增强（悬停/斑马纹） ===== */
+
+.table-wrap {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.table-wrap table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-wrap th, .table-wrap td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+}
+
+.table-wrap th {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: var(--bg-hover);
+}
+
+.table-wrap tbody tr:hover { background: var(--bg-hover); }
+.table-wrap tbody tr:last-child td { border-bottom: none; }
+
+/* 数字列右对齐 */
+.td-num { text-align: right !important; font-variant-numeric: tabular-nums; }
+
+/* ===== 空卡片内滚动容器 ===== */
+
+.scroll-y {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* ===== 通用工具类 ===== */
+
+.text-secondary { color: var(--text-secondary); }
+.text-small { font-size: 0.8rem; }
+.text-mono { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 0.85em; }
+.flex { display: flex; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.gap-10 { gap: 10px; }
+.gap-20 { gap: 20px; }
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-20 { margin-bottom: 20px; }
+.hidden { display: none !important; }

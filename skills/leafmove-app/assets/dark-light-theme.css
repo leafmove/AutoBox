@@ -1,0 +1,232 @@
+/* ===== 叶动应用明暗主题CSS变量模板 ===== */
+/* 将此文件内容粘贴到 <style> 标签开头 */
+
+:root {
+    /* 品牌色 — Mint Quantum（2026-09-04 起，主色为薄荷绿） */
+    --primary: #34d399;
+    --primary-dark: #059669;
+    --success: #10b981;
+    --danger: #ef4444;
+    --danger-dark: #dc2626;
+    --warning: #f59e0b;
+    --info: #3b82f6;
+
+    /* 背景色 */
+    --bg-dark: #071310;       /* 页面背景（绿调黑） */
+    --bg-card: #0e1f18;       /* 卡片背景 */
+    --bg-hover: #1c332a;      /* 悬停背景 */
+
+    /* 文字色 */
+    --text-primary: #f1f5f9;   /* 主文字 */
+    --text-secondary: #8aa89b; /* 次要文字（绿灰） */
+
+    /* 边框 */
+    --border: #1c332a;
+
+    /* 图表专用 */
+    --chart-grid: rgba(28, 51, 42, 0.35);
+    --chart-text: #6b8a7e;
+    --chart-tooltip-bg: rgba(7, 19, 16, 0.92);
+    --chart-tooltip-title: #f1f5f9;
+    --chart-tooltip-body: #8aa89b;
+
+    /* 语义色（中国市场：红涨绿跌） */
+    --color-up: #ef4444;
+    --color-down: #10b981;
+    --color-neutral: #f59e0b;
+
+    /* 其他 */
+    --heatmap-bg: #071310;
+    --search-bg: #0e1f18;
+    --shadow: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="light"] {
+    --primary: #047857;
+    --primary-dark: #065f46;
+    --success: #059669;
+    --danger: #dc2626;
+    --danger-dark: #b91c1c;
+    --warning: #d97706;
+    --info: #2563eb;
+
+    --bg-dark: #f0faf5;
+    --bg-card: #ffffff;
+    --bg-hover: #dcefe5;
+
+    --text-primary: #0f1f18;
+    --text-secondary: #5f7a6e;
+
+    --border: #cfe3d8;
+
+    --chart-grid: rgba(207, 227, 216, 0.6);
+    --chart-text: #6b8a7e;
+    --chart-tooltip-bg: rgba(255, 255, 255, 0.95);
+    --chart-tooltip-title: #0f1f18;
+    --chart-tooltip-body: #5f7a6e;
+
+    --color-up: #dc2626;
+    --color-down: #16a34a;
+    --color-neutral: #d97706;
+
+    --heatmap-bg: #dcefe5;
+    --search-bg: #f6fbf8;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* ===== 基础样式 ===== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== 卡片 ===== */
+
+.card, .chart-section, .compare-selector {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+/* ===== 指标卡片区 ===== */
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.metric-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    box-shadow: 0 4px 20px var(--shadow);
+}
+
+.metric-card .label { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 8px; }
+.metric-card .value { font-size: 1.5rem; font-weight: 700; }
+.metric-card .sub { font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px; }
+
+/* ===== 涨跌色 ===== */
+
+.positive { color: var(--color-up); }
+.negative { color: var(--color-down); }
+.neutral { color: var(--color-neutral); }
+
+/* ===== 按钮 ===== */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #fff;
+}
+.btn-primary:hover { background: var(--primary-dark); }
+
+.btn-secondary {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+.btn-secondary:hover { background: var(--bg-hover); }
+
+.btn-small { padding: 5px 12px; font-size: 0.8rem; }
+
+.btn-danger {
+    background: var(--danger);
+    color: #fff;
+}
+.btn-danger:hover { background: var(--danger-dark); }
+
+/* ===== 模态弹窗（必须放在全局层级） ===== */
+
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    z-index: 10001;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay.show { display: flex; }
+
+.modal {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* ===== 表格 ===== */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+th {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* ===== 主题切换按钮 ===== */
+
+.theme-toggle {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-toggle:hover { background: var(--bg-hover); }

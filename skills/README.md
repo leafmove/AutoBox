@@ -1,8 +1,13 @@
 # Skills
 
-AutoBox 技能文件夹。
+AutoBox 技能文件夹，每个技能独立子目录。
 
-用于存放技能定义文件（SKILL.md）及相关资源，每个技能独立子目录。
+## 当前技能
+
+| 技能 | 说明 |
+|:---|:---|
+| [box-flow](./box-flow/) | Box流程管理CLI工具，支持搜索/运行/查询Box流程 |
+| [leafmove-app](./leafmove-app/) | 叶动独立应用编写技能，快速构建GUI/Web全栈应用 |
 
 ## 结构规范
 
@@ -11,10 +16,9 @@ skills/
 ├── README.md
 ├── <skill-name>/
 │   ├── SKILL.md          # 技能定义文件
-│   └── ...               # 其他资源文件
+│   ├── assets/           # 资源文件（CSS/JS模板等）
+│   ├── references/       # 参考文档
+│   ├── scripts/          # 辅助脚本
+│   └── ...
 └── ...
 ```
-
-## 技能注册
-
-技能安装后需在 `skills/` 目录下创建对应子目录，并确保 `SKILL.md` 符合技能定义规范。
