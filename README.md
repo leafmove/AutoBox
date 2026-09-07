@@ -45,6 +45,7 @@ AutoBox（叶动智能）是一个专注于科研教育和量化投资的 AI 驾
 > 🔹 **知识库系统**：接入了企业知识库，理论上我可以成为你的专属数字员工。不过别指望我真能取代你——至少目前还得靠你发工资不是？😏
 >
 > ---
+
 ## ✨ 主要特色
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143528.png" alt="AutoBox Agent" width="1050" /></p>
 
