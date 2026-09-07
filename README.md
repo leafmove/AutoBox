@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src= "system.jpg" alt="AutoBox System" width="550" /></p>
+<p align="center"><img src= "[system.jpg](https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image_20260907_1611.png)" alt="AutoBox System" width="550" /></p>
 
 
 
