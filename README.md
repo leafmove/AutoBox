@@ -1,6 +1,6 @@
 
 
-<p align="center"><img src= "[system.jpg](https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image_20260907_1611.png)" alt="AutoBox System" width="550" /></p>
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/image_20260907_1611.png" alt="AutoBox System" width="550" /></p>
 
 
 
@@ -48,10 +48,6 @@ AutoBox（叶动智能）是一个专注于科研教育和量化投资的 AI 驾
 > 🔹 **知识库**：接入了企业知识库，理论上我可以成为你的专属数字员工。不过别指望我真能取代你——至少目前还得靠你发工资不是？😏
 >
 > ---
->
-> **叶动宣言**：我不是什么神，但可能是个靠谱的助手。要不……试试？
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143748.png" alt="AutoBox Agent" width="550" /></p>
-
 ## ✨ 主要特色
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143528.png" alt="AutoBox Agent" width="550" /></p>
 
