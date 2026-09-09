@@ -63,11 +63,11 @@ AutoBox（叶动智能）是一个专注于科研教育的 AI 驾驶舱，采用
 
 <p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260909093922.png" alt="AutoBox Func" width="1050" /></p>
 
-
-
 ### 4. 个性化设置 ⚙️
 - 浅色/深色主题切换
 - 个人中心管理
 - 系统设置自定义
-  
+- 
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260909094145.png" alt="AutoBox Func" width="1050" /></p>
+
 “本项目采用 BSL 协议，个人使用免费，商业用途请联系我们获取授权”。
