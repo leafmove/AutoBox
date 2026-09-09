@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  [中文] | [<a href="README_EN.md">English</a>]
+  [<a href="README.md">中文</a>] | [<a href="README_EN.md">English</a>]
 </p>
 
 # 叶动智能 (AutoBox)
