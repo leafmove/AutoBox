@@ -40,7 +40,7 @@ AutoBox（叶动智能）是一个专注于科研教育的 AI 驾驶舱，采用
 - 
 
 ## ✨ 主要特色
-<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260424143528.png" alt="AutoBox Agent" width="1050" /></p>
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260909093755.png" alt="AutoBox Agent" width="1050" /></p>
 
 ### 1. 智能助手 💬
 - 和AI进行实时对话，像聊天一样简单
