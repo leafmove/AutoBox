@@ -61,6 +61,10 @@ AutoBox（叶动智能）是一个专注于科研教育的 AI 驾驶舱，采用
 - 安全的远程操作体验
 - 支持多种连接方式
 
+<p align="center"><img src= "https://autobox-1326946848.cos.ap-beijing.myqcloud.com/md/20260909093922.png" alt="AutoBox Func" width="1050" /></p>
+
+
+
 ### 4. 个性化设置 ⚙️
 - 浅色/深色主题切换
 - 个人中心管理
